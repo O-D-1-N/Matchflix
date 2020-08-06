@@ -22,7 +22,7 @@ class Matchflix():
         querystring = {"netflixid":self.movieId}
         headers = {
         'x-rapidapi-host': "unogsng.p.rapidapi.com",
-        'x-rapidapi-key': "44f2c854c9msh70052d5b0318de0p115f87jsna34187fcf3fb"
+        'x-rapidapi-key': "KEY"
         }
         response = req.request("GET", url, headers=headers, params=querystring)
         obj = json.loads(response.content)
